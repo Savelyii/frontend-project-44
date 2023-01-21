@@ -1,6 +1,9 @@
 {
   "name": "@hexlet/code",
   "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Savelyii/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Savelyii/frontend-project-44/actions)",
   "main": "index.js",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Savelyii/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Savelyii/frontend-project-44#readme"
+  "homepage": "https://github.com/Savelyii/frontend-project-44#readme",
+  "dependencies": {
+    "ci": "^2.2.0"
+  }
 }
