@@ -7,12 +7,12 @@ const Username = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${Username}!`);
 console.log('What is the result of the expression?');
 
-const generationRandomnumber = () => Math.round(Math.random() * 100);
+const generationRandomnumber = (number) => Math.round(Math.random() * number);
 
 const startGameCalc = () => {
   for (let i = 0; i < 3; i += 1) {
-    const randomNumber1 = generationRandomnumber();
-    const randomNumber2 = generationRandomnumber();
+    const randomNumber1 = generationRandomnumber(10);
+    const randomNumber2 = generationRandomnumber(10);
     let correctAnswer = 0;
     const arrSimbol = ['+', '-', '*'];
     const getRandomSymbol = Math.floor(Math.random() * arrSimbol.length);
