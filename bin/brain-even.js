@@ -3,14 +3,14 @@
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
-const name = readlineSync.question('May I have your name? ');
-console.log(`Hello, ${name}!`);
+const Username = readlineSync.question('May I have your name? ');
+console.log(`Hello, ${Username}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 const generationRandomnumber = () => Math.round(Math.random() * 100);
 const isEven = (num) => num % 2 === 0;
 
-const startGame = () => {
+const startGameEven = () => {
   for (let i = 0; i < 3; i += 1) {
     const randomNumber = generationRandomnumber();
     console.log(`Question: ${randomNumber}`);
@@ -20,11 +20,11 @@ const startGame = () => {
       console.log('Correct!');
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      console.log(`Let's try again, ${name}`);
+      console.log(`Let's try again, ${Username}`);
       return;
     }
   }
-  console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${Username}!`);
 };
 
-startGame();
+startGameEven();

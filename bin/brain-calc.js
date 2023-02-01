@@ -3,8 +3,8 @@
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
-const name = readlineSync.question('May I have your name? ');
-console.log(`Hello, ${name}!`);
+const Username = readlineSync.question('May I have your name? ');
+console.log(`Hello, ${Username}!`);
 console.log('What is the result of the expression?');
 
 const generationRandomnumber = () => Math.round(Math.random() * 100);
@@ -37,11 +37,11 @@ const startGameCalc = () => {
       console.log('Correct!');
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
-      console.log(`Let's try again, ${name}`);
+      console.log(`Let's try again, ${Username}`);
       return;
     }
   }
-  console.log(`Congratulations, ${name}!`);
+  console.log(`Congratulations, ${Username}!`);
 };
 
 startGameCalc();
