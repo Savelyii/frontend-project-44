@@ -17,3 +17,6 @@ https://asciinema.org/a/ZZdOfZpi7HvdzRuyNwTUS6SLc
 
 lesson 8
 https://asciinema.org/a/EUirb3svQyLDLeHGATYSXZ5zr
+
+lesson 9
+https://asciinema.org/a/ovDZC4FunMgeyWWYRsTxjbWwd
