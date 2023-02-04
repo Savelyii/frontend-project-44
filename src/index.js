@@ -7,7 +7,7 @@ export const getRandomNumber = (min, max) => {
   return result;
 };
 
-const generalLogic = (description, logicGame) => {
+export const generalLogic = (description, logicGame) => {
   console.log('Welcome to the Brain Games!');
   const Username = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${Username}!`);
@@ -26,5 +26,3 @@ const generalLogic = (description, logicGame) => {
   }
   console.log(`Congratulations, ${Username}!`);
 };
-
-export default generalLogic;
