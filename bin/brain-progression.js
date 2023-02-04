@@ -8,15 +8,15 @@ console.log(`Hello, ${Username}!`);
 console.log('What number is missing in the progression?');
 
 const startGameProg = () => {
-  const getRandNumInProg = (min, max) => {
-    const result = Math.floor(Math.random() * (max - min + 1)) + min;
+  const getRandomNumber = (min, max) => {
+    const result = Math.floor(Math.random() * (max - min)) + min;
     return result;
   };
 
   const getProgression = () => {
-    const begin = getRandNumInProg(1, 100);
-    const stepProgression = getRandNumInProg(2, 10);
-    const progressionLength = getRandNumInProg(6, 12);
+    const begin = getRandomNumber(1, 100);
+    const stepProgression = getRandomNumber(2, 10);
+    const progressionLength = getRandomNumber(6, 12);
     const arr = [begin];
     for (let i = 0; arr.length < progressionLength; i += 1) {
       arr.push(arr[i] + stepProgression);
@@ -27,7 +27,7 @@ const startGameProg = () => {
   for (let i = 0; i < 3; i += 1) {
     const progressionArr = getProgression();
 
-    const hiddenPosition = getRandNumInProg(1, progressionArr.length - 1);
+    const hiddenPosition = getRandomNumber(1, progressionArr.length - 1);
     const hiddenElement = progressionArr[hiddenPosition];
     progressionArr[hiddenPosition] = '..';
     const question = progressionArr.join(' ');

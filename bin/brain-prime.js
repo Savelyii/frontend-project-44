@@ -16,11 +16,14 @@ const isPrime = (num) => {
   return true;
 };
 
-const generationRandomnumber = (number) => Math.round(Math.random() * number);
+const getRandomNumber = (min, max) => {
+  const result = Math.floor(Math.random() * (max - min)) + min;
+  return result;
+};
 
 const startGamePrime = () => {
   for (let i = 0; i < 3; i += 1) {
-    const randomNumber = generationRandomnumber(50);
+    const randomNumber = getRandomNumber(2, 50);
     console.log(`Question: ${randomNumber}`);
     const answer = readlineSync.question('Your answer: ');
     const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';

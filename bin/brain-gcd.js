@@ -7,7 +7,10 @@ const Username = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${Username}!`);
 console.log('Find the greatest common divisor of given numbers.');
 
-const generationRandomNumber = (number) => Math.round(Math.random() * number);
+const getRandomNumber = (min, max) => {
+  const result = Math.floor(Math.random() * (max - min)) + min;
+  return result;
+};
 
 const gcdNumber = (num1, num2) => {
   if (!num2) {
@@ -19,8 +22,8 @@ const gcdNumber = (num1, num2) => {
 
 const startGameGcd = () => {
   for (let i = 0; i < 3; i += 1) {
-    const number1 = generationRandomNumber(11);
-    const number2 = generationRandomNumber(11);
+    const number1 = getRandomNumber(1, 11);
+    const number2 = getRandomNumber(1, 11);
     console.log(`Question: ${number1} ${number2}`);
     const answer = readlineSync.question('Your answer: ');
     const correctAnswer = String(gcdNumber(number1, number2));

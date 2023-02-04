@@ -7,12 +7,15 @@ const Username = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${Username}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-const generationRandomnumber = (number) => Math.round(Math.random() * number);
+const getRandomNumber = (min, max) => {
+  const result = Math.floor(Math.random() * (max - min)) + min;
+  return result;
+};
 const isEven = (num) => num % 2 === 0;
 
 const startGameEven = () => {
   for (let i = 0; i < 3; i += 1) {
-    const randomNumber = generationRandomnumber(100);
+    const randomNumber = getRandomNumber(1, 100);
     console.log(`Question: ${randomNumber}`);
     const answer = readlineSync.question('Your answer: ');
     const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
