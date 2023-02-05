@@ -13,8 +13,8 @@ const logicGameGcd = () => {
     return gcdNumber(num2, num1 % num2);
   };
 
-  const number1 = getRandomNumber(1, 11);
-  const number2 = getRandomNumber(1, 11);
+  const number1 = getRandomNumber(1, 50);
+  const number2 = getRandomNumber(1, 50);
   const question = `${number1} ${number2}`;
   const correctAnswer = String(gcdNumber(number1, number2));
   return [question, correctAnswer];
