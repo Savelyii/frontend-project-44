@@ -9,7 +9,7 @@
 <h2>Description</h2>
 "Brain games" is a console game consisting of five mini-games aimed at pumping the brain.
 
-Each game has three rounds. If you give three correct answers in a row - you win!       
+Each game has three rounds. If you give three correct answers in a row - you win!  
 If you make a mistake, the game will end and you will be asked to play again.
 
 <h2>System requirements</h2>
@@ -37,16 +37,13 @@ https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An
 
 brain-calc preview
 
-
 https://asciinema.org/a/5pVrNnudLLWIiMkFRH1GJMPkB
 
 brain-gcd preview
 
-
 https://asciinema.org/a/wCcYM1kAQwnvCIYZy9lpO90Al
 
 brain-progression preview
-
 
 https://asciinema.org/a/USuQir4s2IqLIuQm3jOHDSYS5
 
