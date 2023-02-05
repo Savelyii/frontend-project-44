@@ -7,16 +7,16 @@
 <h1>Asciinema:</h1>
 
 lesson 5
-https://asciinema.org/a/nSAz0z0QmUJcRTSwePauh5wEp
+https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An
 
 lesson 6
-https://asciinema.org/a/UdYGMkdyXHWNRT9Et4qYlqbUR
+https://asciinema.org/a/5pVrNnudLLWIiMkFRH1GJMPkB
 
 lesson 7
-https://asciinema.org/a/ZZdOfZpi7HvdzRuyNwTUS6SLc
+https://asciinema.org/a/wCcYM1kAQwnvCIYZy9lpO90Al
 
 lesson 8
-https://asciinema.org/a/EUirb3svQyLDLeHGATYSXZ5zr
+https://asciinema.org/a/USuQir4s2IqLIuQm3jOHDSYS5
 
 lesson 9
-https://asciinema.org/a/ovDZC4FunMgeyWWYRsTxjbWwd
+https://asciinema.org/a/9CJ2sXDkUtz2EwHAshfvGWwzp

@@ -14,7 +14,7 @@ const logicGamePrime = () => {
     return true;
   };
 
-  const question = getRandomNumber(2, 50);
+  const question = getRandomNumber(2, 100);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
 
   return [question, correctAnswer];
