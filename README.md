@@ -31,10 +31,9 @@ Windows 10 with WSL
 
 <h2>Asciinema</h2>
 
-brain-even preview
+<h3>brain-even preview</h3>
 
-<a href="https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An" target="_blank"><img src="https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An.svg" /></a>
-
+[![asciicast](https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An.svg)](https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An)
 brain-calc preview
 
 https://asciinema.org/a/5pVrNnudLLWIiMkFRH1GJMPkB
