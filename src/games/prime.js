@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { getRandomNumber, generalLogic } from '../index.js';
+import runEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const descriptionPrime = () => console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+const rulesPrime = () => console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
 const logicGamePrime = () => {
   const isPrime = (num) => {
@@ -20,6 +21,6 @@ const logicGamePrime = () => {
   return [question, correctAnswer];
 };
 
-const startGamePrime = () => generalLogic(descriptionPrime, logicGamePrime);
+const startGamePrime = () => runEngine(rulesPrime, logicGamePrime);
 
 export default startGamePrime;

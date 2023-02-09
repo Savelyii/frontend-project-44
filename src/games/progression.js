@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { getRandomNumber, generalLogic } from '../index.js';
+import runEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const descriptionProgression = () => console.log('What number is missing in the progression?');
+const rulesProgression = () => console.log('What number is missing in the progression?');
 
 const logicGameProgression = () => {
   const getProgression = () => {
@@ -26,6 +27,6 @@ const logicGameProgression = () => {
   return [question, correctAnswer];
 };
 
-const startGameProgression = () => generalLogic(descriptionProgression, logicGameProgression);
+const startGameProgression = () => runEngine(rulesProgression, logicGameProgression);
 
 export default startGameProgression;

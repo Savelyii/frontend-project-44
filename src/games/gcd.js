@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { getRandomNumber, generalLogic } from '../index.js';
+import runEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const descriptionGcd = () => console.log('Find the greatest common divisor of given numbers.');
+const rulesGcd = () => console.log('Find the greatest common divisor of given numbers.');
 
 const logicGameGcd = () => {
   const gcdNumber = (num1, num2) => {
@@ -20,6 +21,6 @@ const logicGameGcd = () => {
   return [question, correctAnswer];
 };
 
-const startGameGcd = () => generalLogic(descriptionGcd, logicGameGcd);
+const startGameGcd = () => runEngine(rulesGcd, logicGameGcd);
 
 export default startGameGcd;

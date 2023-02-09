@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { getRandomNumber, generalLogic } from '../index.js';
+import runEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const descriptionCalc = () => console.log('What is the result of the expression?');
+const rulesCalc = () => console.log('What is the result of the expression?');
 
 const logicGameCalc = () => {
   const randomNumber1 = getRandomNumber(1, 10);
@@ -27,6 +28,6 @@ const logicGameCalc = () => {
   const question = `${randomNumber1} ${arrSimbol[getRandomSymbol]} ${randomNumber2}`;
   return [question, correctAnswer];
 };
-const startGameCalc = () => generalLogic(descriptionCalc, logicGameCalc);
+const startGameCalc = () => runEngine(rulesCalc, logicGameCalc);
 
 export default startGameCalc;
