@@ -33,18 +33,20 @@ Windows 10 with WSL
 
 <h3>brain-even preview</h3>
 
-[![asciicast](https://asciinema.org/a/pI60FFOz5Jpy0Srz8dtc8bWuY.svg)](https://asciinema.org/a/pI60FFOz5Jpy0Srz8dtc8bWuY)
+[![asciicast](https://asciinema.org/a/mUDj6S6oKKu4ZW7b4otn4hBAT.svg)](https://asciinema.org/a/mUDj6S6oKKu4ZW7b4otn4hBAT)
 
-https://asciinema.org/a/5pVrNnudLLWIiMkFRH1GJMPkB
+<h3>brain-calc prewiew</h3>
 
-brain-gcd preview
+[![asciicast](https://asciinema.org/a/bJeLXuo1ZRYeYvgD3GehJcWuy.svg)](https://asciinema.org/a/bJeLXuo1ZRYeYvgD3GehJcWuy)
 
-https://asciinema.org/a/wCcYM1kAQwnvCIYZy9lpO90Al
+<h3>brain-gcd preview</h3>
 
-brain-progression preview
+[![asciicast](https://asciinema.org/a/F3OQSOXBAUTTywTJJEx6ErarI.svg)](https://asciinema.org/a/F3OQSOXBAUTTywTJJEx6ErarI)
 
-https://asciinema.org/a/USuQir4s2IqLIuQm3jOHDSYS5
+<h3>brain-progression preview</h3>
 
-brain-prime preview
+[![asciicast](https://asciinema.org/a/doZAxdAj2S3oKaRCcJD79tUDw.svg)](https://asciinema.org/a/doZAxdAj2S3oKaRCcJD79tUDw)
 
-https://asciinema.org/a/9CJ2sXDkUtz2EwHAshfvGWwzp
+<h3>brain-prime preview</h3>
+
+[![asciicast](https://asciinema.org/a/iAsdBmHszRvPqawEl2AVhhjZZ.svg)](https://asciinema.org/a/iAsdBmHszRvPqawEl2AVhhjZZ)
