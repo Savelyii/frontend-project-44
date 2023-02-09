@@ -5,18 +5,18 @@ import getRandomNumber from '../utils.js';
 
 const rulesProgression = 'What number is missing in the progression?';
 
-const logicGameProgression = () => {
-  const getProgression = () => {
-    const begin = getRandomNumber(1, 100);
-    const stepProgression = getRandomNumber(2, 10);
-    const progressionLength = getRandomNumber(6, 12);
-    const arr = [begin];
-    for (let i = 0; arr.length < progressionLength; i += 1) {
-      arr.push(arr[i] + stepProgression);
-    }
-    return arr;
-  };
+const getProgression = () => {
+  const begin = getRandomNumber(1, 100);
+  const stepProgression = getRandomNumber(2, 10);
+  const progressionLength = getRandomNumber(6, 12);
+  const arr = [begin];
+  for (let i = 0; arr.length < progressionLength; i += 1) {
+    arr.push(arr[i] + stepProgression);
+  }
+  return arr;
+};
 
+const logicGameProgression = () => {
   const progressionArr = getProgression();
 
   const hiddenPosition = getRandomNumber(1, progressionArr.length - 1);

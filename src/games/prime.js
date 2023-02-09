@@ -5,16 +5,16 @@ import getRandomNumber from '../utils.js';
 
 const rulesPrime = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const logicGamePrime = () => {
-  const isPrime = (num) => {
-    for (let i = 2; i < num; i += 1) {
-      if (num % i === 0) {
-        return false;
-      }
+const isPrime = (num) => {
+  for (let i = 2; i < num; i += 1) {
+    if (num % i === 0) {
+      return false;
     }
-    return true;
-  };
+  }
+  return true;
+};
 
+const logicGamePrime = () => {
   const question = getRandomNumber(2, 100);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
 
