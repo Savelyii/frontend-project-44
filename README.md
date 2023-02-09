@@ -33,7 +33,7 @@ Windows 10 with WSL
 
 brain-even preview
 
-<script id="asciicast-aAqZgY65mMh8gLKxkogiEf0An" src="https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An.js" async></script>
+<a href="https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An" target="_blank"><img src="https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An.svg" /></a>
 
 brain-calc preview
 
