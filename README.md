@@ -33,8 +33,7 @@ Windows 10 with WSL
 
 <h3>brain-even preview</h3>
 
-[![asciicast](https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An.svg)](https://asciinema.org/a/aAqZgY65mMh8gLKxkogiEf0An)
-brain-calc preview
+[![asciicast](https://asciinema.org/a/pI60FFOz5Jpy0Srz8dtc8bWuY.svg)](https://asciinema.org/a/pI60FFOz5Jpy0Srz8dtc8bWuY)
 
 https://asciinema.org/a/5pVrNnudLLWIiMkFRH1GJMPkB
 
