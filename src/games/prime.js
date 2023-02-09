@@ -3,7 +3,7 @@
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const rulesPrime = () => console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+const rulesPrime = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const logicGamePrime = () => {
   const isPrime = (num) => {

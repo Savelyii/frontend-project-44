@@ -3,7 +3,7 @@
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const rulesCalc = () => console.log('What is the result of the expression?');
+const rulesCalc = 'What is the result of the expression?';
 
 const logicGameCalc = () => {
   const randomNumber1 = getRandomNumber(1, 10);

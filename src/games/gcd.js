@@ -3,7 +3,7 @@
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const rulesGcd = () => console.log('Find the greatest common divisor of given numbers.');
+const rulesGcd = 'Find the greatest common divisor of given numbers.';
 
 const logicGameGcd = () => {
   const gcdNumber = (num1, num2) => {

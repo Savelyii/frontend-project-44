@@ -3,7 +3,7 @@
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const rulesProgression = () => console.log('What number is missing in the progression?');
+const rulesProgression = 'What number is missing in the progression?';
 
 const logicGameProgression = () => {
   const getProgression = () => {
