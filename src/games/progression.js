@@ -3,19 +3,19 @@ import getRandomNumber from '../utils.js';
 
 const rulesProgression = 'What number is missing in the progression?';
 
-const getProgression = () => {
-  const begin = getRandomNumber(1, 100);
-  const stepProgression = getRandomNumber(2, 10);
-  const progressionLength = getRandomNumber(6, 12);
-  const arr = [begin];
-  for (let i = 0; arr.length < progressionLength; i += 1) {
-    arr.push(arr[i] + stepProgression);
+const getProgression = (startNum, step, length) => {
+  const arr = [startNum];
+  for (let i = 0; arr.length < length; i += 1) {
+    arr.push(arr[i] + step);
   }
   return arr;
 };
 
 const makeRound = () => {
-  const progressionArr = getProgression();
+  const startNum = getRandomNumber(1, 100);
+  const step = getRandomNumber(2, 10);
+  const length = getRandomNumber(6, 12);
+  const progressionArr = getProgression(startNum, step, length);
 
   const hiddenPosition = getRandomNumber(1, progressionArr.length - 1);
   const hiddenElement = progressionArr[hiddenPosition];
