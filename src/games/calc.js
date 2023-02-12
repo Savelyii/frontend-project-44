@@ -4,22 +4,18 @@ import getRandomNumber from '../utils.js';
 const rulesCalc = 'What is the result of the expression?';
 
 const calculation = (num1, num2, operator) => {
-  let correctAnswer = 0;
   switch (operator) {
     case '+':
-      correctAnswer = num1 + num2;
-      break;
+      return num1 + num2;
     case '-':
-      correctAnswer = num1 - num2;
-      break;
+      return num1 - num2;
     case '*':
-      correctAnswer = num1 * num2;
-      break;
+      return num1 * num2;
     default:
       throw new Error(`Operator ${operator} - is incorrect!`);
   }
-  return correctAnswer;
 };
+
 const makeRound = () => {
   const randomNumber1 = getRandomNumber(1, 10);
   const randomNumber2 = getRandomNumber(1, 10);
