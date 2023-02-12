@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
@@ -13,7 +11,7 @@ const gcdNumber = (num1, num2) => {
   return gcdNumber(num2, num1 % num2);
 };
 
-const logicGameGcd = () => {
+const makeRound = () => {
   const number1 = getRandomNumber(1, 50);
   const number2 = getRandomNumber(1, 50);
   const question = `${number1} ${number2}`;
@@ -21,6 +19,6 @@ const logicGameGcd = () => {
   return [question, correctAnswer];
 };
 
-const startGameGcd = () => runEngine(rulesGcd, logicGameGcd);
+const startGameGcd = () => runEngine(rulesGcd, makeRound);
 
 export default startGameGcd;

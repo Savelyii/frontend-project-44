@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
@@ -22,7 +20,7 @@ const calculation = (num1, num2, operator) => {
   }
   return correctAnswer;
 };
-const logicGameCalc = () => {
+const makeRound = () => {
   const randomNumber1 = getRandomNumber(1, 10);
   const randomNumber2 = getRandomNumber(1, 10);
   const operators = ['+', '-', '*'];
@@ -32,6 +30,6 @@ const logicGameCalc = () => {
   return [question, correctAnswer];
 };
 
-const startGameCalc = () => runEngine(rulesCalc, logicGameCalc);
+const startGameCalc = () => runEngine(rulesCalc, makeRound);
 
 export default startGameCalc;

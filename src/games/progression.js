@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import runEngine from '../index.js';
 import getRandomNumber from '../utils.js';
 
@@ -16,7 +14,7 @@ const getProgression = () => {
   return arr;
 };
 
-const logicGameProgression = () => {
+const makeRound = () => {
   const progressionArr = getProgression();
 
   const hiddenPosition = getRandomNumber(1, progressionArr.length - 1);
@@ -27,6 +25,6 @@ const logicGameProgression = () => {
   return [question, correctAnswer];
 };
 
-const startGameProgression = () => runEngine(rulesProgression, logicGameProgression);
+const startGameProgression = () => runEngine(rulesProgression, makeRound);
 
 export default startGameProgression;
