@@ -1,4 +1,4 @@
-<h1>Brain-games</h1>
+<h1>Brain games</h1>
 
 ### Hexlet tests and linter status:
 
